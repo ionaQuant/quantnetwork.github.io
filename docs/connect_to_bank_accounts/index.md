@@ -18,7 +18,7 @@ Linking a new bank account to your company's Quant Flow profile is designed to b
     *   **What it is:** You securely provide Quant Flow with permission to access transaction data from your bank. This is a standard regulatory requirement known as Open Banking (in the UK/Europe) or similar frameworks globally.
     *   **Who does it:** Any Admin User for your company. The authorization is given for the entire company, not just an individual user.
 
-2.  **Link & Activate**
+2.  **Activate Account**
     *   **What it is:** Once consent is granted, you "activate" the bank account for use within Quant Flow. This is when the magic starts.
     *   **Who does it:** An Admin User decides which consented accounts to activate.
     *   **The Key:** The number of bank accounts you can actively **link and use** is determined by your **Quant Flow User Plan**. Think of your plan as defining how many simultaneous automation streams you can have.
@@ -39,5 +39,5 @@ Linking a new bank account to your company's Quant Flow profile is designed to b
 {: .note .p-3 }
 
 *   [How to Get Consent for a Bank Account](./get_consent)
-*   [How to Link and Activate a Bank Account](./link_account)
+*   [How to Activate a Bank Account](./link_account)
 *   [Managing Your Connected Accounts](./manage_consents)

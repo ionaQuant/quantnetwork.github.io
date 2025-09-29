@@ -1,11 +1,11 @@
 ---
-title: Link and Activate a Bank Account
+title: Activate a Bank Account
 parent: Connect Your Bank Accounts
 layout: default
 nav_order: 2
 ---
 
-# Step 2: Link and Activate a Bank Account
+# Step 2: Activate a Bank Account
 
 After you have successfully granted consent, the next step is to activate the bank account within Quant Flow to start building automations.
 

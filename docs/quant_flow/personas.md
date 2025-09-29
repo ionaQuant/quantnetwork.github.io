@@ -8,8 +8,6 @@ parent: Quant Flow
 # Personas
 The white label version of Quant Flow is designed for financial service providers such as banks. With that in mind, the following personas are referred to in this documentation as a generalisation of roles played in the product vision.
 
-## Bank
-The financial service provider which has adopted and implemented Quant Flow.
 
 ## Developer
 The professional responsible for developing and managing PayScripts.
