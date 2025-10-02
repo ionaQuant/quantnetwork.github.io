@@ -1,7 +1,8 @@
 trigger = transaction(payer = anyExcept(), payee=OWNER);
 
-var savingsAccount = ${savingsAccount:AccountInfo};
-var taxPercentage = ${taxPercentage:decimal};
+var savingsAccount = ${savingsAccount:type=AccountInfo, required=true, label="Savings Account", linked=true}; 
+var taxPercentage = ${taxPercentage:type=decimal, required=true, label="Tax Percentage"};
+
 
 if(taxPercentage <=BigDecimal.ZERO ||taxPercentage >BigDecimal.valueOf(100)){
     throw new IllegalArgumentException("Invalid taxPercentage:"+taxPercentage +" Must be > 0 and ≤ 100.");

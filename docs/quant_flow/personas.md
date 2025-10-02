@@ -12,7 +12,7 @@ The white label version of Quant Flow is designed for financial service provider
 ## Developer
 The professional responsible for developing and managing PayScripts.
 
-## Customer
+## Accountants
 The Bank's end user, utilising the provided financial services powered by Quant Flow. In the Sandbox, customers do this by activating Automations, while in a real implementation of Quant Flow the features can be made available in different ways.
 
 [comment]: Once the Concepts page is filled, make the appropriate links here.

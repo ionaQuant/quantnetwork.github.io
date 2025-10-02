@@ -13,6 +13,6 @@ Trigger a payment on every incoming transaction. Calculate a specified % amount 
 [Download](tax_optimisation.groovy){: .btn }
 </div>
 
-{% highlight groovy %}
+{% highlight text %}
 {% include_relative tax_optimisation.groovy %}
 {% endhighlight %}

@@ -1,8 +1,8 @@
 trigger = "transaction";
 
-var savingsAccount = ${savingsAccount:AccountInfo};
-var percentageToTransfer = ${percentageToTransfer:decimal};
-var saveOnTransactionsOver = ${saveOnTransactionsOver:decimal};
+var savingsAccount = ${savingsAccount:type=AccountInfo, required=true, label="Savings Account", linked=true}; 
+var percentageToTransfer = ${percentageToTransfer:type=decimal, required=true, label="Percentage To Transfer"};
+var saveOnTransactionsOver = ${saveOnTransactionsOver:type=decimal, required=true, label="Save On Transactions Over"};
 
 var incomingPaymentAmount = getTriggerTransactionDetails().getAmount().getAmount();
 

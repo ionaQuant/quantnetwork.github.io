@@ -11,6 +11,6 @@ This script makes an update to a reserve based on the parameters supplied.
 [Download](updateReserve.groovy){: .btn }
 </div>
 
-{% highlight groovy %}
+{% highlight text %}
 {% include_relative updateReserve.groovy %}
 {% endhighlight %}

@@ -13,6 +13,6 @@ Continuously track an account for surplus cash beyond regular business needs. Wh
 [Download](credit_optimisation.groovy){: .btn }
 </div>
 
-{% highlight groovy %}
+{% highlight text %}
 {% include_relative cashflow_optimisation.groovy %}
 {% endhighlight %}

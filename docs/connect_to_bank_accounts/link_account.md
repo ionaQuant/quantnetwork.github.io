@@ -14,7 +14,7 @@ After you have successfully granted consent, the next step is to activate the ba
 *   **Consent:** The *permission* to access the data. A company can have consent for many bank accounts.
 *   **Linking/Activation:** The *action* of using that consented account within your automations. The number of accounts you can activate is limited by your User Plan.
 
-## How to Link an Account
+## How to Activate an Account
 
 1.  Go to **Bank Accounts**. You will see a list of all accounts for which your company has given consent. They are going to be separated in two sections **"Active bank account"s, "Inactive bank accounts"**
 2.  Find the account you wish to use in the **"Inactive bank accounts"** and click **"Activate"**.

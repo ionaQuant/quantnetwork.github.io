@@ -1,8 +1,8 @@
 trigger = "time";
 
-var savingsAccount = ${savingsAccount:AccountInfo};
-var minAmount    = ${minimumAccountBalance:decimal};
-var maxAmount    = ${maximumAccountBalance:decimal};
+var savingsAccount = ${savingsAccount:type=AccountInfo, required=true, label="Savings Account", linked=true}; 
+var minAmount = ${minimumAccountBalance:type=decimal, required=true, label="Minimum Account Balance"}; 
+var maxAmount = ${maximumAccountBalance:type=decimal, required=true, label="Maximum Account Balance"};
 
 var bankAccount = getAutomationOwnerAccountInfo();
 var bankAccountBalance = getBalance(bankAccount);
